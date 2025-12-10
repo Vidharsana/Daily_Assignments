@@ -1,0 +1,12 @@
+package com.mph.dao;
+
+import java.util.List;
+
+import com.mph.entities.Department;
+
+public interface DepartmentDaoInterface {
+
+	public List<Department> findAll();
+	public void addDepartment(Department department);
+	public Department findById(int id);
+}
